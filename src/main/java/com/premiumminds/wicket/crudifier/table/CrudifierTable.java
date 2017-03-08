@@ -101,7 +101,9 @@ public abstract class CrudifierTable<T> extends Panel {
 
 		headers.removeAll();
 		for(IColumn<T> column : columns){
-			headers.add(new Label(headers.newChildId(), new StringResourceModel(column.getPropertyName()+".label", this, null, column.getPropertyName())));
+			StringResourceModel stringResourceModel = new StringResourceModel(column.getPropertyName()+".label", this, null);
+			stringResourceModel.setDefaultValue(column.getPropertyName());
+			headers.add(new Label(headers.newChildId(), stringResourceModel));
 		}
 	}
 

@@ -55,7 +55,9 @@ public class TextFieldControlGroup<T> extends AbstractControlGroup<T> {
 	protected void onInitialize() {
 		super.onInitialize();
 		
-		textField.add(AttributeModifier.replace("placeHolder", new StringResourceModel(getPropertyName()+".placeHolder", getResourceBase(), getModel(), "")));
+		StringResourceModel stringResourceModel = new StringResourceModel(getPropertyName()+".placeHolder", getResourceBase(), getModel());
+		stringResourceModel.setDefaultValue("");
+		textField.add(AttributeModifier.replace("placeHolder", stringResourceModel));
 		WebMarkupContainer inputBox = new WebMarkupContainer("inputBox");
 		addInputBoxGridSize(inputBox);
 		inputBox.add(textField);

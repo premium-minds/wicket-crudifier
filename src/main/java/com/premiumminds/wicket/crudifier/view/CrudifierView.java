@@ -47,7 +47,9 @@ public class CrudifierView<T> extends Panel implements IGenericComponent<T> {
 	public CrudifierView(String id, IModel<T> model) {
 		super(id, model);
 
-		add(new Label("legend", new StringResourceModel("legend", this, getModel(), "Unknown")){
+		StringResourceModel stringResourceModel = new StringResourceModel("legend", this, getModel());
+		stringResourceModel.setDefaultValue("Unknown");
+		add(new Label("legend", stringResourceModel){
 			private static final long serialVersionUID = -7854751811138463187L;
 
 			@Override
@@ -69,7 +71,9 @@ public class CrudifierView<T> extends Panel implements IGenericComponent<T> {
 				WebMarkupContainer control = new WebMarkupContainer(view.newChildId());
 				view.addOrReplace(control);
 
-				control.addOrReplace(new Label("label", new StringResourceModel("controls."+property+".label", this, getModel(), property)));
+				StringResourceModel stringResourceModel = new StringResourceModel("controls."+property+".label", this, getModel());
+				stringResourceModel.setDefaultValue("Unknown");
+				control.addOrReplace(new Label("label", stringResourceModel));
 				control.addOrReplace(new LabelProperty("input", new PropertyModel<Object>(getModel(), property), renderers) {
 					private static final long serialVersionUID = 8561120757563362569L;
 

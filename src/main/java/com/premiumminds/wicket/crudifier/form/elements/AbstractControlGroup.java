@@ -67,7 +67,8 @@ public abstract class AbstractControlGroup<T> extends Panel {
 
 		getFormComponent().add(new HibernateValidatorProperty(getResourceBase().getDefaultModel(), getPropertyName()));
 
-		StringResourceModel labelModel = new StringResourceModel(getPropertyName()+".label", resourceBase, getModel(), getPropertyName());
+		StringResourceModel labelModel = new StringResourceModel(getPropertyName()+".label", resourceBase, getModel());
+		labelModel.setDefaultValue(getPropertyName());
 		getFormComponent().setLabel(labelModel);
 		getFormComponent().setRequired(required);
 	}
