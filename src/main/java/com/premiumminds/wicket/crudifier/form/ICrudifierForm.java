@@ -50,13 +50,13 @@ public interface ICrudifierForm<T> {
 	 * Usage:
 	 * 
 	 * <pre>
-	 * 
+	 * {@code
 	 * 	form.getButtons().add(new AjaxLink<Void>(&quot;button&quot;) {
 	 * 		public void onClick(AjaxRequestTarget target) {
 	 * 			// do something
 	 * 		}
 	 * 	}.add(new Label(&quot;label&quot;, "Cancel")));
-	 * 
+	 * }
 	 * </pre>
 	 * 
 	 * @return the custom buttons list

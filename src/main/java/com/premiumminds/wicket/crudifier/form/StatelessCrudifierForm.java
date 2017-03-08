@@ -159,7 +159,6 @@ public class StatelessCrudifierForm<T> extends StatelessForm<T> implements ICrud
 	}
 	/**
 	 * get the providers used in this form. To add new providers, simply make a put() to map returned by this method
-	 * @return
 	 */
 	public Map<Class<?>, ControlGroupProvider<? extends AbstractControlGroup<?>>> getControlGroupProviders(){
 		return listControlGroups.getControlGroupProviders();

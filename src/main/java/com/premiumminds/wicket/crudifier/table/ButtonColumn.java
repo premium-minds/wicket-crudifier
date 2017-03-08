@@ -38,7 +38,7 @@ public abstract class ButtonColumn<T extends Serializable> implements
 
 	/**
 	 * defines the button type. since this is a bootstrap implementation, see
-	 * {@link http://getbootstrap.com/css/#buttons} for more information on each
+	 * <a href="http://getbootstrap.com/css/#buttons">getbootstrap.com</a> for more information on each
 	 * type
 	 * 
 	 * @author cfraga

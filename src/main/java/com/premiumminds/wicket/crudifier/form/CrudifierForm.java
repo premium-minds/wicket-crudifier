@@ -47,8 +47,6 @@ import com.premiumminds.wicket.crudifier.form.elements.ListControlGroups;
 
 /**
  * @author acamilo
- *
- * @param <T>
  */
 public class CrudifierForm<T> extends Form<T> implements ICrudifierForm<T> {
 	private static final long serialVersionUID = -611772486341659737L;
@@ -189,7 +187,6 @@ public class CrudifierForm<T> extends Form<T> implements ICrudifierForm<T> {
 	
 	/**
 	 * get the providers used in this form. To add new providers, simply make a put() to map returned by this method
-	 * @return
 	 */
 	public Map<Class<?>, ControlGroupProvider<? extends AbstractControlGroup<?>>> getControlGroupProviders(){
 		return listControlGroups.getControlGroupProviders();
