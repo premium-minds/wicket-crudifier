@@ -73,16 +73,20 @@ public class EnumControlGroup<T extends Enum<?>> extends AbstractControlGroup<T>
 						return true;
 					}
 				};
-				radio.add(new Label("label", new StringResourceModel(getPropertyName()+"."+value.name(), getResourceBase(), getModel(), value.name())));
+				StringResourceModel stringResourceModel = new StringResourceModel(getPropertyName()+"."+value.name(), getResourceBase(), getModel());
+				stringResourceModel.setDefaultValue(value.name());
+				radio.add(new Label("label", stringResourceModel));
 				
 				view.add(new WebMarkupContainer(view.newChildId()).add(radio));
 			}
 			
 			radioGroup.add(view);
 			
+			StringResourceModel stringResourceModel = new StringResourceModel(getPropertyName()+".label", getResourceBase(), getModel());
+			stringResourceModel.setDefaultValue(getPropertyName());
 			add(new BootstrapControlGroupFeedback("controlGroup")
 				.add(radioGroup)
-				.add(new Label("label", new StringResourceModel(getPropertyName()+".label", getResourceBase(), getModel(), getPropertyName())))
+				.add(new Label("label", stringResourceModel))
 			);
 		} catch (SecurityException e) {
 			throw new RuntimeException(e);

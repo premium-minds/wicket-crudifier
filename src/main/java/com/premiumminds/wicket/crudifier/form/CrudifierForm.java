@@ -47,8 +47,6 @@ import com.premiumminds.wicket.crudifier.form.elements.ListControlGroups;
 
 /**
  * @author acamilo
- *
- * @param <T>
  */
 public class CrudifierForm<T> extends Form<T> implements ICrudifierForm<T> {
 	private static final long serialVersionUID = -611772486341659737L;
@@ -70,7 +68,9 @@ public class CrudifierForm<T> extends Form<T> implements ICrudifierForm<T> {
 		this.entitySettings = entitySettings;
 		this.renderers = renderers;
 		
-		add(new Label("legend", new StringResourceModel("legend", this, getModel(), "Unknown")){
+		StringResourceModel stringResourceModel = new StringResourceModel("legend", this, getModel());
+		stringResourceModel.setDefaultValue("Unknown");
+		add(new Label("legend", stringResourceModel){
 			private static final long serialVersionUID = -7854751811138463187L;
 
 			@Override
@@ -92,6 +92,8 @@ public class CrudifierForm<T> extends Form<T> implements ICrudifierForm<T> {
 			
 		});
 		
+		StringResourceModel stringResourceModel2 = new StringResourceModel("submit.label", this, getModel());
+		stringResourceModel2.setDefaultValue("Submit");
 		add(new AjaxSubmitLink("submit", this) {
 			private static final long serialVersionUID = -4527592607129929399L;
 
@@ -106,7 +108,7 @@ public class CrudifierForm<T> extends Form<T> implements ICrudifierForm<T> {
 				target.add(CrudifierForm.this);
 				CrudifierForm.this.onError(target, form);
 			}
-		}.add(new Label("submitLabel", new StringResourceModel("submit.label", this, getModel(), "Submit"))));
+		}.add(new Label("submitLabel", stringResourceModel2)));
 		
 		add(new ListView<Component>("buttons", buttons) {
 			private static final long serialVersionUID = -8614436913101248043L;
@@ -185,7 +187,6 @@ public class CrudifierForm<T> extends Form<T> implements ICrudifierForm<T> {
 	
 	/**
 	 * get the providers used in this form. To add new providers, simply make a put() to map returned by this method
-	 * @return
 	 */
 	public Map<Class<?>, ControlGroupProvider<? extends AbstractControlGroup<?>>> getControlGroupProviders(){
 		return listControlGroups.getControlGroupProviders();

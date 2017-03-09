@@ -63,7 +63,9 @@ public class StatelessCrudifierForm<T> extends StatelessForm<T> implements ICrud
 		this.entitySettings = entitySettings;
 		this.renderers = renderers;
 		
-		add(new Label("legend", new StringResourceModel("legend", this, getModel(), "Unknown")){
+		StringResourceModel stringResourceModel = new StringResourceModel("legend", this, getModel());
+		stringResourceModel.setDefaultValue("Unknown");
+		add(new Label("legend", stringResourceModel){
 			private static final long serialVersionUID = -7854751811138463187L;
 
 			@Override
@@ -83,7 +85,9 @@ public class StatelessCrudifierForm<T> extends StatelessForm<T> implements ICrud
 			}
 		});
 		
-		add(new Label("submitLabel", new StringResourceModel("submitLabel", this, getModel(), "Submit")));
+		StringResourceModel stringResourceModel2 = new StringResourceModel("submitLabel", this, getModel());
+		stringResourceModel2.setDefaultValue("Submit");
+		add(new Label("submitLabel", stringResourceModel2));
 
 		add(new ListView<Component>("buttons", buttons) {
 			private static final long serialVersionUID = -8614436913101248043L;
@@ -155,7 +159,6 @@ public class StatelessCrudifierForm<T> extends StatelessForm<T> implements ICrud
 	}
 	/**
 	 * get the providers used in this form. To add new providers, simply make a put() to map returned by this method
-	 * @return
 	 */
 	public Map<Class<?>, ControlGroupProvider<? extends AbstractControlGroup<?>>> getControlGroupProviders(){
 		return listControlGroups.getControlGroupProviders();
