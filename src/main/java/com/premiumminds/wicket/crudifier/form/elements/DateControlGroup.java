@@ -27,9 +27,10 @@ import org.apache.wicket.markup.html.WebMarkupContainer;
 import org.apache.wicket.markup.html.form.FormComponent;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.validation.IValidationError;
+import org.joda.time.ReadableInstant;
 
 import com.premiumminds.webapp.wicket.bootstrap.BootstrapControlGroupFeedback;
-import com.premiumminds.webapp.wicket.bootstrap.BootstrapDatepicker;
+import com.premiumminds.webapp.wicket.bootstrap.BootstrapJodaDatepicker;
 
 public class DateControlGroup extends AbstractControlGroup<Date> {
 	private static final long serialVersionUID = 7519983535463694024L;
@@ -39,7 +40,7 @@ public class DateControlGroup extends AbstractControlGroup<Date> {
 	public DateControlGroup(String id, IModel<Date> model) {
 		super(id, model);
 		
-		BootstrapDatepicker datepicker = new BootstrapDatepicker("datepicker"){
+		BootstrapJodaDatepicker<ReadableInstant> datepicker = new BootstrapJodaDatepicker<ReadableInstant>("datepicker"){
 			private static final long serialVersionUID = -1294334224980199521L;
 
 			@Override

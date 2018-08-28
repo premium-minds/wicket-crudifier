@@ -38,7 +38,7 @@ import com.premiumminds.wicket.crudifier.IObjectRenderer;
 import com.premiumminds.wicket.crudifier.LabelProperty;
 import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings;
 
-public class CrudifierView<T> extends Panel implements IGenericComponent<T> {
+public class CrudifierView<T> extends Panel implements IGenericComponent<T, CrudifierView<T>> {
 	private static final long serialVersionUID = -151637566983702881L;
 
 	private CrudifierEntitySettings entitySettings = new CrudifierEntitySettings();
@@ -109,24 +109,6 @@ public class CrudifierView<T> extends Panel implements IGenericComponent<T> {
 		return properties;
 	}
 
-
-	@SuppressWarnings("unchecked")
-	public IModel<T> getModel() {
-		return (IModel<T>) getDefaultModel();
-	}
-
-	public void setModel(IModel<T> model) {
-		setDefaultModel(model);
-	}
-
-	public void setModelObject(T object) {
-		setModelObject(object);
-	}
-
-	public T getModelObject() {
-		return getModel().getObject();
-	}
-
 	public CrudifierEntitySettings getEntitySettings() {
 		return entitySettings;
 	}
@@ -142,6 +124,4 @@ public class CrudifierView<T> extends Panel implements IGenericComponent<T> {
 	public void setRenderers(Map<Class<?>, IObjectRenderer<?>> renderers) {
 		this.renderers = renderers;
 	}
-
-
 }
