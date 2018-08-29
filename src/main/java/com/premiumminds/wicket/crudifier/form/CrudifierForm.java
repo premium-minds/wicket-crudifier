@@ -98,15 +98,15 @@ public class CrudifierForm<T> extends Form<T> implements ICrudifierForm<T> {
 			private static final long serialVersionUID = -4527592607129929399L;
 
 			@Override
-			protected void onSubmit(AjaxRequestTarget target, Form<?> form) {
+			protected void onSubmit(AjaxRequestTarget target) {
 				target.add(CrudifierForm.this);
-				CrudifierForm.this.onSubmit(target, form);
+				CrudifierForm.this.onSubmit(target, getForm());
 			}
 			
 			@Override
-			protected void onError(AjaxRequestTarget target, Form<?> form) {
+			protected void onError(AjaxRequestTarget target) {
 				target.add(CrudifierForm.this);
-				CrudifierForm.this.onError(target, form);
+				CrudifierForm.this.onError(target, getForm());
 			}
 		}.add(new Label("submitLabel", stringResourceModel2)));
 		

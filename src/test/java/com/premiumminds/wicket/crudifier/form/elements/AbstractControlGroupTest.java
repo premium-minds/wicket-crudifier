@@ -118,9 +118,7 @@ public class AbstractControlGroupTest extends AbstractComponentTest {
 
 		verifyAll();
 
-		exception.expect(AssertionError.class);
-
-		getTester().assertRequired(tg.field.getPageRelativePath());
+		getTester().assertNotRequired(tg.field.getPageRelativePath());
 	}
 
 	@Test
