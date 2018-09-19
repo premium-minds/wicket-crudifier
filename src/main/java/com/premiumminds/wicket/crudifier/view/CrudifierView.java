@@ -65,6 +65,8 @@ public class CrudifierView<T> extends Panel implements IGenericComponent<T, Crud
 	}
 	@Override
 	protected void onConfigure() {
+		super.onConfigure();
+
 		RepeatingView view = new RepeatingView("control");
 		if(null != getModelObject()) {
 			for(final String property : getPropertiesByOrder(getModelObject().getClass())){

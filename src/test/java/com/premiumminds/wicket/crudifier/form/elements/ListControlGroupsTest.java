@@ -1,10 +1,15 @@
 package com.premiumminds.wicket.crudifier.form.elements;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
+import java.time.temporal.Temporal;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.Map;
@@ -14,8 +19,6 @@ import org.apache.wicket.Component;
 import org.apache.wicket.markup.repeater.RepeatingView;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.Model;
-import org.joda.time.DateTime;
-import org.joda.time.Instant;
 import org.junit.Test;
 
 import com.premiumminds.webapp.wicket.testing.AbstractComponentTest;
@@ -47,10 +50,11 @@ public class ListControlGroupsTest extends AbstractComponentTest {
 
 		@SuppressWarnings("rawtypes")
 		Map<Class<?>, Class<? extends AbstractControlGroup>> map = tl.getControlGroupsTypesMap();
-		assertEquals(15, map.size());
+		assertEquals(16, map.size());
 		assertEquals(DateControlGroup.class, map.get(Date.class));
-		assertEquals(JodaInstantControlGroup.class, map.get(DateTime.class));
-		assertEquals(JodaInstantControlGroup.class, map.get(Instant.class));
+		assertEquals(TemporalControlGroup.class, map.get(ZonedDateTime.class));
+		assertEquals(TemporalControlGroup.class, map.get(LocalDateTime.class));
+		assertEquals(TemporalControlGroup.class, map.get(Temporal.class));
 		assertEquals(TextFieldControlGroup.class, map.get(String.class));
 		assertEquals(TextFieldControlGroup.class, map.get(Integer.class));
 		assertEquals(TextFieldControlGroup.class, map.get(int.class));

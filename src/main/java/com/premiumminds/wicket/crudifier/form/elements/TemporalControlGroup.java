@@ -19,27 +19,27 @@
 package com.premiumminds.wicket.crudifier.form.elements;
 
 import java.io.Serializable;
+import java.time.ZonedDateTime;
 
 import org.apache.wicket.markup.ComponentTag;
 import org.apache.wicket.markup.html.WebMarkupContainer;
 import org.apache.wicket.markup.html.form.FormComponent;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.validation.IValidationError;
-import org.joda.time.DateTime;
 
-import com.premiumminds.webapp.wicket.JodaInstantTextField;
+import com.premiumminds.webapp.wicket.TemporalTextField;
 import com.premiumminds.webapp.wicket.bootstrap.BootstrapControlGroupFeedback;
-import com.premiumminds.webapp.wicket.bootstrap.BootstrapJodaDatepicker;
+import com.premiumminds.webapp.wicket.bootstrap.BootstrapTemporalDatepicker;
 
-public class JodaInstantControlGroup extends AbstractControlGroup<DateTime> {
+public class TemporalControlGroup extends AbstractControlGroup<ZonedDateTime> {
 	private static final long serialVersionUID = 7519983535463694024L;
 
-	private JodaInstantTextField<DateTime> dateField;
+	private TemporalTextField<ZonedDateTime> dateField;
 	
-	public JodaInstantControlGroup(String id, IModel<DateTime> model) {
+	public TemporalControlGroup(String id, IModel<ZonedDateTime> model) {
 		super(id, model);
 		
-		BootstrapJodaDatepicker<DateTime> datepicker = new BootstrapJodaDatepicker<DateTime>("datepicker"){
+		BootstrapTemporalDatepicker<ZonedDateTime> datepicker = new BootstrapTemporalDatepicker<ZonedDateTime>("datepicker"){
 			private static final long serialVersionUID = -1294334224980199521L;
 
 			@Override
@@ -49,7 +49,7 @@ public class JodaInstantControlGroup extends AbstractControlGroup<DateTime> {
 			}
 		};
 		
-		dateField = new JodaInstantTextField<DateTime>("input", getModel(), DateTime.class){
+		dateField = new TemporalTextField<ZonedDateTime>("input", getModel(), ZonedDateTime.class){
 			private static final long serialVersionUID = 4925601760084153117L;
 
 			@Override
@@ -78,7 +78,7 @@ public class JodaInstantControlGroup extends AbstractControlGroup<DateTime> {
 	}
 
 	@Override
-	public FormComponent<DateTime> getFormComponent() {
+	public FormComponent<ZonedDateTime> getFormComponent() {
 		return dateField;
 	}
 

@@ -19,6 +19,7 @@
 package com.premiumminds.wicket.crudifier.form.elements;
 
 import java.io.Serializable;
+import java.time.temporal.Temporal;
 import java.util.Date;
 
 import org.apache.wicket.extensions.markup.html.form.DateTextField;
@@ -27,10 +28,9 @@ import org.apache.wicket.markup.html.WebMarkupContainer;
 import org.apache.wicket.markup.html.form.FormComponent;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.validation.IValidationError;
-import org.joda.time.ReadableInstant;
 
 import com.premiumminds.webapp.wicket.bootstrap.BootstrapControlGroupFeedback;
-import com.premiumminds.webapp.wicket.bootstrap.BootstrapJodaDatepicker;
+import com.premiumminds.webapp.wicket.bootstrap.BootstrapTemporalDatepicker;
 
 public class DateControlGroup extends AbstractControlGroup<Date> {
 	private static final long serialVersionUID = 7519983535463694024L;
@@ -40,7 +40,7 @@ public class DateControlGroup extends AbstractControlGroup<Date> {
 	public DateControlGroup(String id, IModel<Date> model) {
 		super(id, model);
 		
-		BootstrapJodaDatepicker<ReadableInstant> datepicker = new BootstrapJodaDatepicker<ReadableInstant>("datepicker"){
+		BootstrapTemporalDatepicker<Temporal> datepicker = new BootstrapTemporalDatepicker<Temporal>("datepicker"){
 			private static final long serialVersionUID = -1294334224980199521L;
 
 			@Override
