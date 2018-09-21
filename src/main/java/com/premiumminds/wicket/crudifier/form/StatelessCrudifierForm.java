@@ -63,7 +63,7 @@ public class StatelessCrudifierForm<T> extends StatelessForm<T> implements ICrud
 		this.entitySettings = entitySettings;
 		this.renderers = renderers;
 		
-		StringResourceModel stringResourceModel = new StringResourceModel("legend", this, getModel());
+		StringResourceModel stringResourceModel = new StringResourceModel("formLegend", this, getModel());
 		stringResourceModel.setDefaultValue("Unknown");
 		add(new Label("legend", stringResourceModel){
 			private static final long serialVersionUID = -7854751811138463187L;

@@ -47,7 +47,7 @@ public class CrudifierView<T> extends Panel implements IGenericComponent<T, Crud
 	public CrudifierView(String id, IModel<T> model) {
 		super(id, model);
 
-		StringResourceModel stringResourceModel = new StringResourceModel("legend", this, getModel());
+		StringResourceModel stringResourceModel = new StringResourceModel("viewLegend", this, getModel());
 		stringResourceModel.setDefaultValue("Unknown");
 		add(new Label("legend", stringResourceModel){
 			private static final long serialVersionUID = -7854751811138463187L;
