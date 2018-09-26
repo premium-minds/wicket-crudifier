@@ -65,6 +65,7 @@ public class ObjectChoiceControlGroup<T> extends AbstractControlGroup<T> {
 				super.error(message);
 			}
 		};
+		dropDown.setNullValid(true);
 	}
 
 	@Override

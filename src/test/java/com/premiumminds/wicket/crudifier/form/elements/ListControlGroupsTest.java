@@ -50,9 +50,8 @@ public class ListControlGroupsTest extends AbstractComponentTest {
 
 		@SuppressWarnings("rawtypes")
 		Map<Class<?>, Class<? extends AbstractControlGroup>> map = tl.getControlGroupsTypesMap();
-		assertEquals(16, map.size());
+		assertEquals(15, map.size());
 		assertEquals(DateControlGroup.class, map.get(Date.class));
-		assertEquals(TemporalControlGroup.class, map.get(ZonedDateTime.class));
 		assertEquals(TemporalControlGroup.class, map.get(LocalDateTime.class));
 		assertEquals(TemporalControlGroup.class, map.get(Temporal.class));
 		assertEquals(TextFieldControlGroup.class, map.get(String.class));

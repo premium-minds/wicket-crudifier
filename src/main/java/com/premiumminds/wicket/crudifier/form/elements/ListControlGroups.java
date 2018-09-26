@@ -74,7 +74,6 @@ public abstract class ListControlGroups<T> extends Panel {
 		super(id, model);
 
 		typesControlGroups.put(Date.class, DateControlGroup.class);
-		typesControlGroups.put(ZonedDateTime.class, TemporalControlGroup.class);
 		typesControlGroups.put(LocalDateTime.class, TemporalControlGroup.class);
 		typesControlGroups.put(Temporal.class, TemporalControlGroup.class);
 		typesControlGroups.put(String.class, TextFieldControlGroup.class);
