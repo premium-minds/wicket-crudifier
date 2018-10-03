@@ -11,7 +11,7 @@ Add the following maven dependency to your project `pom.xml`:
 <dependency>
    <groupId>com.premiumminds</groupId>
    <artifactId>wicket-crudifier</artifactId>
-   <version>4.0</version>
+   <version>4.1</version>
 </dependency>
 ```
 Check out [sonatype repository](https://oss.sonatype.org/index.html#nexus-search;quick~wicket-crudifier) for latest snapshots and releases.
