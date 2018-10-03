@@ -24,6 +24,9 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
+import java.time.temporal.Temporal;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
@@ -47,8 +50,6 @@ import org.apache.wicket.markup.html.panel.Panel;
 import org.apache.wicket.markup.repeater.RepeatingView;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.PropertyModel;
-import org.joda.time.DateTime;
-import org.joda.time.Instant;
 
 import com.premiumminds.webapp.wicket.validators.HibernateValidatorProperty;
 import com.premiumminds.wicket.crudifier.IObjectRenderer;
@@ -73,8 +74,8 @@ public abstract class ListControlGroups<T> extends Panel {
 		super(id, model);
 
 		typesControlGroups.put(Date.class, DateControlGroup.class);
-		typesControlGroups.put(DateTime.class, JodaInstantControlGroup.class);
-		typesControlGroups.put(Instant.class, JodaInstantControlGroup.class);
+		typesControlGroups.put(LocalDateTime.class, TemporalControlGroup.class);
+		typesControlGroups.put(Temporal.class, TemporalControlGroup.class);
 		typesControlGroups.put(String.class, TextFieldControlGroup.class);
 		typesControlGroups.put(Integer.class, TextFieldControlGroup.class);
 		typesControlGroups.put(int.class, TextFieldControlGroup.class);
