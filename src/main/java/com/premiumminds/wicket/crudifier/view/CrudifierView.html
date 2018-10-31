@@ -19,15 +19,15 @@
 
 -->
 <wicket:panel>
-	<div class="form-horizontal">
-		<fieldset>
-			<legend wicket:id="viewLegend">View</legend>
-			<div class="form-group" wicket:id="control">
-				<label class="col-lg-2 control-label"><wicket:container wicket:id="label">Label</wicket:container>:</label>
-			    <div class="col-lg-10">
-			      <p class="form-control-static" wicket:id="input">email@example.com</p>
-			    </div>
-			</div>
-		</fieldset>
-	</div>
+  <div class="form-horizontal">
+    <fieldset>
+      <legend wicket:id="viewLegend">View</legend>
+      <div class="form-group row" wicket:id="control">
+        <label class="col-form-label col-lg-2 col-md-3 col-12"><wicket:container wicket:id="label">Label</wicket:container>:</label>
+        <div class="col-lg-10 col-md-9 col-12">
+          <input type="text" readonly class="form-control-plaintext" wicket:id="input" value="email@example.com" />
+        </div>
+      </div>
+    </fieldset>
+  </div>
 </wicket:panel>
