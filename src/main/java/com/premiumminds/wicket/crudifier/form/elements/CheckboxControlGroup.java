@@ -18,9 +18,11 @@
  */
 package com.premiumminds.wicket.crudifier.form.elements;
 
+import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.form.CheckBox;
 import org.apache.wicket.markup.html.form.FormComponent;
 import org.apache.wicket.model.IModel;
+import org.apache.wicket.model.StringResourceModel;
 
 import com.premiumminds.webapp.wicket.bootstrap.BootstrapControlGroupFeedback;
 
@@ -39,7 +41,12 @@ public class CheckboxControlGroup extends AbstractControlGroup<Boolean> {
 	protected void onInitialize() {
 		super.onInitialize();
 		
-		add(new BootstrapControlGroupFeedback("controlGroup").add(checkbox));
+		StringResourceModel stringResourceModel = new StringResourceModel(getPropertyName()+".label", getResourceBase(), getModel());
+		stringResourceModel.setDefaultValue(getPropertyName());
+		add(new BootstrapControlGroupFeedback("controlGroup")
+			.add(checkbox)
+			.add(new Label("label", stringResourceModel))
+		);
 	}
 	@Override
 	public FormComponent<Boolean> getFormComponent() {

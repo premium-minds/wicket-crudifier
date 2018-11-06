@@ -24,10 +24,12 @@
 <body>
   <wicket:panel>
     <div wicket:id="controlGroup" class="form-group row">
-      <div class="col-lg-offset-2 col-lg-10 col-md-offset-3 col-md-9 col-12">
-        <div class="custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" wicket:id="input" />
-          <label class="custom-control-label" wicket:for="input"><wicket:label>Label</wicket:label></label>
+      <label class="col-form-label col-lg-2 col-md-3 col-12">
+        <wicket:container wicket:id="label">Label</wicket:container>:
+      </label>
+      <div class="col-lg-10 col-md-9 col-12">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input position-static" wicket:id="input" />
         </div>
       </div>
     </div>
