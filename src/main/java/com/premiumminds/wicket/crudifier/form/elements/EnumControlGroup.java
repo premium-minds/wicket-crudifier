@@ -75,9 +75,11 @@ public class EnumControlGroup<T extends Enum<?>> extends AbstractControlGroup<T>
 				};
 				StringResourceModel stringResourceModel = new StringResourceModel(getPropertyName()+"."+value.name(), getResourceBase(), getModel());
 				stringResourceModel.setDefaultValue(value.name());
-				radio.add(new Label("label", stringResourceModel));
 				
-				view.add(new WebMarkupContainer(view.newChildId()).add(radio));
+				WebMarkupContainer container = new WebMarkupContainer(view.newChildId());
+				container.add(new Label("label", stringResourceModel));
+				container.add(radio);
+				view.add(container);
 			}
 			
 			radioGroup.add(view);

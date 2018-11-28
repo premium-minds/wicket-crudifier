@@ -20,26 +20,32 @@
 -->
 <!DOCTYPE html>
 <html>
-  <body>
-  	<wicket:panel>
-       <fieldset>
-			<legend wicket:id="formLegend">Winphar Galeno</legend>
-           
-			<div wicket:id="feedbackError" class="alert alert-danger"></div>
-			<div wicket:id="feedbackWarning" class="alert alert-warning"></div>
-			<div wicket:id="feedbackSuccess" class="alert alert-success"></div>
-           
-			<wicket:container wicket:id="controls" />
-           
-			<div class="form-group">
-				<div class="col-lg-offset-2 col-lg-10">
-	                <button type="submit" class="btn btn-primary" wicket:id="submit"><wicket:container wicket:id="submitLabel">Submit</wicket:container></button>
-	                <wicket:container wicket:id="buttons">
-	                	<button class="btn" wicket:id="button"><wicket:container wicket:id="label">Button</wicket:container></button>
-	                </wicket:container>
-				</div>
-			</div>
-       </fieldset>
-    </wicket:panel>
-  </body>
+
+<body>
+  <wicket:panel>
+    <fieldset>
+      <legend wicket:id="formLegend">Winphar Galeno</legend>
+
+      <div wicket:id="feedbackError" class="alert alert-danger"></div>
+      <div wicket:id="feedbackWarning" class="alert alert-warning"></div>
+      <div wicket:id="feedbackSuccess" class="alert alert-success"></div>
+
+      <wicket:container wicket:id="controls" />
+
+      <div class="form-group row">
+        <div class="col-lg-offset-2 col-lg-10 col-md-offset-3 col-md-9 col-12">
+          <button type="submit" class="btn btn-primary" wicket:id="submit">
+            <wicket:container wicket:id="submitLabel">Submit</wicket:container>
+          </button>
+          <wicket:container wicket:id="buttons">
+            <button class="btn" wicket:id="button">
+              <wicket:container wicket:id="label">Button</wicket:container>
+            </button>
+          </wicket:container>
+        </div>
+      </div>
+    </fieldset>
+  </wicket:panel>
+</body>
+
 </html>

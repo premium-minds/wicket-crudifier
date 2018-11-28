@@ -20,17 +20,19 @@
 -->
 <!DOCTYPE html>
 <html>
-  <body>
-  	<wicket:panel>
-     <div wicket:id="controlGroup" class="form-group">
-         <label class="col-lg-2 control-label" wicket:for="input"><wicket:label>Label</wicket:label>:</label>
-         <div wicket:id="inputBox">
-         	<select wicket:id="input" multiple="multiple" class="form-control">
-         		<option>test</option>
-         		<option>test</option>
-         	</select>
-         </div>
-     </div>
-    </wicket:panel>
-  </body>
+
+<body>
+  <wicket:panel>
+    <div wicket:id="controlGroup" class="form-group row">
+      <label class="col-form-label col-lg-2 col-md-3 col-12" wicket:for="input"><wicket:label>Label</wicket:label>:</label>
+      <div wicket:id="inputBox">
+        <select wicket:id="input" multiple="multiple" class="custom-select">
+          <option>test</option>
+          <option>test</option>
+        </select>
+      </div>
+    </div>
+  </wicket:panel>
+</body>
+
 </html>

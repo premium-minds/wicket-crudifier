@@ -20,21 +20,23 @@
 -->
 <!DOCTYPE html>
 <html>
+
 <body>
-	<wicket:panel>
-		<div wicket:id="controlGroup" class="form-group">
-			<label class="col-lg-2 control-label"><wicket:container
-					wicket:id="label">Label</wicket:container>:</label>
-			<div class="col-lg-10">
-				<wicket:container wicket:id="radioGroup">
-					<div class="radio" wicket:id="repeating">
-						<label>
-							<input type="radio" wicket:id="input"><wicket:label wicket:id="label">Label</wicket:label></input>
-						</label>
-					</div>
-				</wicket:container>
-			</div>
-		</div>
-	</wicket:panel>
+  <wicket:panel>
+    <div wicket:id="controlGroup" class="form-group row">
+      <label class="col-form-label col-lg-2 col-md-3 col-12">
+        <wicket:container wicket:id="label">Label</wicket:container>:
+      </label>
+      <div class="col-lg-10 col-md-9 col-12">
+        <wicket:container wicket:id="radioGroup">
+          <div class="custom-control custom-radio" wicket:id="repeating">
+            <input type="radio" class="custom-control-input" wicket:id="input" />
+            <label class="custom-control-label" wicket:for="input"><wicket:label wicket:id="label">Label</wicket:label></label>
+          </div>
+        </wicket:container>
+      </div>
+    </div>
+  </wicket:panel>
 </body>
+
 </html>
