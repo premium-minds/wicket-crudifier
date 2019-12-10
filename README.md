@@ -4,6 +4,7 @@ wicket-crudifier
 wicket-crudifier is a library to easily create CRUD's with wicket
 
 ## Maven projects
+![Maven Central](https://img.shields.io/maven-central/v/com.premiumminds/wicket-crudifier)
 
 Add the following maven dependency to your project `pom.xml`:
 
