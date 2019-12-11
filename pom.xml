@@ -62,7 +62,7 @@
 		<dependency>
 			<groupId>com.premiumminds</groupId>
 			<artifactId>pm-wicket-utils</artifactId>
-			<version>4.3</version>
+			<version>4.4</version>
 		</dependency>
 
 		<!-- TEST DEPENDENCIES -->
