@@ -60,18 +60,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>commons-beanutils</groupId>
-			<artifactId>commons-beanutils</artifactId>
-			<version>1.9.4</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-validator</artifactId>
-			<version>6.0.12.Final</version>
-		</dependency>
-
-		<dependency>
 			<groupId>com.premiumminds</groupId>
 			<artifactId>pm-wicket-utils</artifactId>
 			<version>4.3</version>
