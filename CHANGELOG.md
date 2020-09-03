@@ -25,6 +25,7 @@
  - [Bump maven-gpg-plugin from 1.5 to 1.6](https://github.com/premium-minds/wicket-crudifier/pull/12)
  - [Update bs markup](https://github.com/premium-minds/wicket-crudifier/pull/10)
  - [Update component markup for Bootstrap 4 and add some CSS for better usability](https://github.com/premium-minds/wicket-crudifier/pull/9)
+ - [Bump wicket.version from 8.8.0 to 8.9.0](https://github.com/premium-minds/wicket-crudifier/pull/32)
  
 ## [4.1]
 
