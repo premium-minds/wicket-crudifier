@@ -27,6 +27,7 @@
  - [Update component markup for Bootstrap 4 and add some CSS for better usability](https://github.com/premium-minds/wicket-crudifier/pull/9)
  - [Bump wicket.version from 8.8.0 to 8.9.0](https://github.com/premium-minds/wicket-crudifier/pull/32)
  - [Bump wicket.version from 8.9.0 to 8.10.0](https://github.com/premium-minds/wicket-crudifier/pull/33)
+ - [[Security] Bump junit from 4.13 to 4.13.1](https://github.com/premium-minds/wicket-crudifier/pull/34)
  
 ## [4.1]
 
