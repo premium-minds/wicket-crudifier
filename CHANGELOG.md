@@ -26,6 +26,7 @@
  - [Update bs markup](https://github.com/premium-minds/wicket-crudifier/pull/10)
  - [Update component markup for Bootstrap 4 and add some CSS for better usability](https://github.com/premium-minds/wicket-crudifier/pull/9)
  - [Bump wicket.version from 8.8.0 to 8.9.0](https://github.com/premium-minds/wicket-crudifier/pull/32)
+ - [Bump wicket.version from 8.9.0 to 8.10.0](https://github.com/premium-minds/wicket-crudifier/pull/33)
  
 ## [4.1]
 
