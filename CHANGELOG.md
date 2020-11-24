@@ -28,6 +28,7 @@
  - [Bump wicket.version from 8.8.0 to 8.9.0](https://github.com/premium-minds/wicket-crudifier/pull/32)
  - [Bump wicket.version from 8.9.0 to 8.10.0](https://github.com/premium-minds/wicket-crudifier/pull/33)
  - [[Security] Bump junit from 4.13 to 4.13.1](https://github.com/premium-minds/wicket-crudifier/pull/34)
+ - [Bump wicket.version from 8.10.0 to 8.11.0](https://github.com/premium-minds/wicket-crudifier/pull/35)
  
 ## [4.1]
 
