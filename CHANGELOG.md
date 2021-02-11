@@ -30,6 +30,7 @@
  - [[Security] Bump junit from 4.13 to 4.13.1](https://github.com/premium-minds/wicket-crudifier/pull/34)
  - [Bump wicket.version from 8.10.0 to 8.11.0](https://github.com/premium-minds/wicket-crudifier/pull/35)
  - [Bump maven-scm-publish-plugin from 3.0.0 to 3.1.0](https://github.com/premium-minds/wicket-crudifier/pull/36)
+ - [Move from old javax.servlet-api to new jakarta.servlet-api](https://github.com/premium-minds/wicket-crudifier/pull/37)
  
 ## [4.1]
 
