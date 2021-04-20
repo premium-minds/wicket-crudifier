@@ -32,6 +32,7 @@
  - [Bump maven-scm-publish-plugin from 3.0.0 to 3.1.0](https://github.com/premium-minds/wicket-crudifier/pull/36)
  - [Move from old javax.servlet-api to new jakarta.servlet-api](https://github.com/premium-minds/wicket-crudifier/pull/37)
  - [Bump wicket.version from 8.11.0 to 8.12.0](https://github.com/premium-minds/wicket-crudifier/pull/40)
+ - [Bump easymock from 4.2 to 4.3](https://github.com/premium-minds/wicket-crudifier/pull/41)
  
 ## [4.1]
 
