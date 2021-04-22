@@ -33,6 +33,7 @@
  - [Move from old javax.servlet-api to new jakarta.servlet-api](https://github.com/premium-minds/wicket-crudifier/pull/37)
  - [Bump wicket.version from 8.11.0 to 8.12.0](https://github.com/premium-minds/wicket-crudifier/pull/40)
  - [Bump easymock from 4.2 to 4.3](https://github.com/premium-minds/wicket-crudifier/pull/41)
+ - [Bump junit from 4.13.1 to 4.13.2](https://github.com/premium-minds/wicket-crudifier/pull/42)
  
 ## [4.1]
 
