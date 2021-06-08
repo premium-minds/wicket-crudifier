@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.premiumminds.wicket.crudifier"},{"l":"com.premiumminds.wicket.crudifier.form"},{"l":"com.premiumminds.wicket.crudifier.form.elements"},{"l":"com.premiumminds.wicket.crudifier.table"},{"l":"com.premiumminds.wicket.crudifier.view"}]
