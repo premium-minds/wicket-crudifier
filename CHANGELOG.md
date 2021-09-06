@@ -34,6 +34,7 @@
  - [Bump maven-gpg-plugin from 1.6 to 3.0.1](https://github.com/premium-minds/wicket-crudifier/pull/44)
  - [Bump maven-compiler-plugin from 2.3.2 to 3.8.1](https://github.com/premium-minds/wicket-crudifier/pull/23)
  - [Bump maven-scm-provider-gitexe from 1.8.1 to 1.11.2](https://github.com/premium-minds/wicket-crudifier/pull/16)
+ - [Bump maven-scm-provider-gitexe from 1.11.2 to 1.11.3](https://github.com/premium-minds/wicket-crudifier/pull/47)
  - [Bump maven-release-plugin from 2.4.2 to 2.5.3](https://github.com/premium-minds/wicket-crudifier/pull/20)
  - [Bump maven-scm-publish-plugin from 1.0-beta-2 to 3.0.0](https://github.com/premium-minds/wicket-crudifier/pull/15)
  - [Bump maven-scm-publish-plugin from 3.0.0 to 3.1.0](https://github.com/premium-minds/wicket-crudifier/pull/36)
