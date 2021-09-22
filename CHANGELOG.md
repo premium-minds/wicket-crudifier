@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+## [4.2] - 2021-09-22
+
 ### Changed
 
  - [Bump pm-wicket-utils to version 4.4](https://github.com/premium-minds/wicket-crudifier/commit/c22a5205ec095922b78c33d60a4863ac8d761f44)
@@ -68,4 +70,5 @@
 [3.0]: https://github.com/premium-minds/wicket-crudifier/compare/v2.0...v3.0
 [4.0]: https://github.com/premium-minds/wicket-crudifier/compare/v3.0...v4.0
 [4.1]: https://github.com/premium-minds/wicket-crudifier/compare/v4.0...v4.1
-[unreleased]: https://github.com/premium-minds/wicket-crudifier/compare/v4.1...HEAD
+[4.2]: https://github.com/premium-minds/wicket-crudifier/compare/v4.1...v4.2
+[unreleased]: https://github.com/premium-minds/wicket-crudifier/compare/v4.2...HEAD
