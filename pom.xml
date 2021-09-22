@@ -3,7 +3,7 @@
 
 	<groupId>com.premiumminds</groupId>
 	<artifactId>wicket-crudifier</artifactId>
-	<version>4.2</version>
+	<version>4.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>wicket-crudifier</name>
@@ -28,7 +28,7 @@
 		<url>https://github.com/premium-minds/wicket-crudifier</url>
 		<connection>scm:git:git@github.com:premium-minds/wicket-crudifier.git</connection>
 		<developerConnection>scm:git:git@github.com:premium-minds/wicket-crudifier.git</developerConnection>
-		<tag>v4.2</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<developers>
