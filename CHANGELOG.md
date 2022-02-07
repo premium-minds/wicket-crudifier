@@ -16,6 +16,7 @@
  - [Bump wicket.version from 8.10.0 to 8.11.0](https://github.com/premium-minds/wicket-crudifier/pull/35)
  - [Bump wicket.version from 8.11.0 to 8.12.0](https://github.com/premium-minds/wicket-crudifier/pull/40)
  - [Bump wicket.version from 8.12.0 to 8.13.0](https://github.com/premium-minds/wicket-crudifier/pull/46)
+ - [Bump wicket.version from 8.13.0 to 8.14.0](https://github.com/premium-minds/wicket-crudifier/pull/53)
  - [Bump javax.servlet-api from 4.0.0 to 4.0.1](https://github.com/premium-minds/wicket-crudifier/pull/21)
  - [Move from old javax.servlet-api to new jakarta.servlet-api](https://github.com/premium-minds/wicket-crudifier/pull/37)
  - [Bump commons-beanutils from 1.9.3 to 1.9.4](https://github.com/premium-minds/wicket-crudifier/pull/14)
