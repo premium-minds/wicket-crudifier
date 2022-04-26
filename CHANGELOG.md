@@ -53,6 +53,7 @@
  - [Bump nexus-staging-maven-plugin from 1.6.2 to 1.6.8](https://github.com/premium-minds/wicket-crudifier/pull/18)
  - [Bump nexus-staging-maven-plugin from 1.6.8 to 1.6.11](https://github.com/premium-minds/wicket-crudifier/pull/58)
  - [Bump nexus-staging-maven-plugin from 1.6.11 to 1.6.12](https://github.com/premium-minds/wicket-crudifier/pull/59)
+ - [Bump nexus-staging-maven-plugin from 1.6.12 to 1.6.13](https://github.com/premium-minds/wicket-crudifier/pull/62)
 
 ### Removed 
 
