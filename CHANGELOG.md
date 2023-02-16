@@ -14,6 +14,7 @@
  - [Bump maven-javadoc-plugin from 3.3.1 to 3.3.2](https://github.com/premium-minds/wicket-crudifier/pull/54)
  - [Bump maven-javadoc-plugin from 3.3.2 to 3.4.0](https://github.com/premium-minds/wicket-crudifier/pull/61)
  - [Bump maven-javadoc-plugin from 3.4.0 to 3.4.1](https://github.com/premium-minds/wicket-crudifier/pull/66)
+ - [Bump maven-javadoc-plugin from 3.4.1 to 3.5.0](https://github.com/premium-minds/wicket-crudifier/pull/70)
  - [Bump maven-scm-api from 1.12.0 to 1.12.2](https://github.com/premium-minds/wicket-crudifier/pull/51)
  - [Bump maven-scm-api from 1.12.2 to 1.13.0](https://github.com/premium-minds/wicket-crudifier/pull/64)
  - [Bump maven-scm-provider-gitexe from 1.12.0 to 1.12.2](https://github.com/premium-minds/wicket-crudifier/pull/50)
