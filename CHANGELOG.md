@@ -18,11 +18,14 @@
  - [Bump maven-javadoc-plugin from 3.4.1 to 3.5.0](https://github.com/premium-minds/wicket-crudifier/pull/70)
  - [Bump maven-scm-api from 1.12.0 to 1.12.2](https://github.com/premium-minds/wicket-crudifier/pull/51)
  - [Bump maven-scm-api from 1.12.2 to 1.13.0](https://github.com/premium-minds/wicket-crudifier/pull/64)
+ - [Bump maven-scm-api from 1.13.0 to 2.0.0](https://github.com/premium-minds/wicket-crudifier/pull/72)
  - [Bump maven-scm-provider-gitexe from 1.12.0 to 1.12.2](https://github.com/premium-minds/wicket-crudifier/pull/50)
  - [Bump maven-scm-provider-gitexe from 1.12.2 to 1.13.0](https://github.com/premium-minds/wicket-crudifier/pull/63)
+ - [Bump maven-scm-provider-gitexe from 1.13.0 to 2.0.0](https://github.com/premium-minds/wicket-crudifier/pull/73)
  - [Bump nexus-staging-maven-plugin from 1.6.8 to 1.6.11](https://github.com/premium-minds/wicket-crudifier/pull/58)
  - [Bump nexus-staging-maven-plugin from 1.6.11 to 1.6.12](https://github.com/premium-minds/wicket-crudifier/pull/59)
  - [Bump nexus-staging-maven-plugin from 1.6.12 to 1.6.13](https://github.com/premium-minds/wicket-crudifier/pull/62)
+ - [Bump maven-release-plugin from 2.5.3 to 3.0.0](https://github.com/premium-minds/wicket-crudifier/pull/74)
 
 ## [4.2] - 2021-09-22
 
