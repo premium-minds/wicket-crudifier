@@ -6,6 +6,7 @@
 ### Changed
 
  - [Bump wicket.version from 8.13.0 to 8.14.0](https://github.com/premium-minds/wicket-crudifier/pull/53)
+ - [Bump wicket.version from 8.14.0 to 8.15.0](https://github.com/premium-minds/wicket-crudifier/pull/76)
  - [Bump easymock from 4.3 to 5.0.1](https://github.com/premium-minds/wicket-crudifier/pull/68)
  - [Bump easymock from 5.0.1 to 5.1.0](https://github.com/premium-minds/wicket-crudifier/pull/69)
  - [Bump maven-compiler-plugin from 3.8.1 to 3.9.0](https://github.com/premium-minds/wicket-crudifier/pull/52)
