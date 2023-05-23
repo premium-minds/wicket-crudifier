@@ -28,6 +28,7 @@
  - [Bump nexus-staging-maven-plugin from 1.6.11 to 1.6.12](https://github.com/premium-minds/wicket-crudifier/pull/59)
  - [Bump nexus-staging-maven-plugin from 1.6.12 to 1.6.13](https://github.com/premium-minds/wicket-crudifier/pull/62)
  - [Bump maven-release-plugin from 2.5.3 to 3.0.0](https://github.com/premium-minds/wicket-crudifier/pull/74)
+ - [Bump maven-source-plugin from 3.2.1 to 3.3.0](https://github.com/premium-minds/wicket-crudifier/pull/80)
 
 ## [4.2] - 2021-09-22
 
