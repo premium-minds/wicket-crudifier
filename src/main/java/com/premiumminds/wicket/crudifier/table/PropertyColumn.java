@@ -21,12 +21,11 @@ package com.premiumminds.wicket.crudifier.table;
 import java.io.Serializable;
 import java.util.Map;
 
+import com.premiumminds.wicket.crudifier.IObjectRenderer;
+import com.premiumminds.wicket.crudifier.LabelProperty;
 import org.apache.wicket.Component;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.PropertyModel;
-
-import com.premiumminds.wicket.crudifier.IObjectRenderer;
-import com.premiumminds.wicket.crudifier.LabelProperty;
 
 public class PropertyColumn<T> implements IColumn<T>, Serializable {
 	private static final long serialVersionUID = -1539532027947493672L;

@@ -18,9 +18,6 @@
  */
 package com.premiumminds.wicket.crudifier.form.elements;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -32,16 +29,19 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.wicket.Component;
-import org.apache.wicket.markup.repeater.RepeatingView;
-import org.apache.wicket.model.IModel;
-import org.apache.wicket.model.Model;
-import org.junit.Test;
-
 import com.premiumminds.webapp.wicket.testing.AbstractComponentTest;
 import com.premiumminds.wicket.crudifier.IObjectRenderer;
 import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings;
 import com.premiumminds.wicket.crudifier.form.EntityProvider;
+import org.apache.wicket.Component;
+import org.apache.wicket.markup.repeater.RepeatingView;
+import org.apache.wicket.model.IModel;
+import org.apache.wicket.model.Model;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ListControlGroupsTest extends AbstractComponentTest {
 	private class TestPOJO implements Serializable {

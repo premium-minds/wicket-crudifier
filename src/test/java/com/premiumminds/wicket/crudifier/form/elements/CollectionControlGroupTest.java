@@ -18,26 +18,26 @@
  */
 package com.premiumminds.wicket.crudifier.form.elements;
 
-import static org.junit.Assert.*;
-
 import java.io.Serializable;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.wicket.markup.html.WebMarkupContainer;
-import org.apache.wicket.markup.html.form.ListMultipleChoice;
-import org.apache.wicket.validation.IErrorMessageSource;
-import org.apache.wicket.validation.IValidationError;
-import org.junit.Test;
-
 import com.premiumminds.webapp.wicket.bootstrap.BootstrapControlGroupFeedback;
 import com.premiumminds.webapp.wicket.testing.AbstractComponentTest;
 import com.premiumminds.wicket.crudifier.IObjectRenderer;
 import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings;
-import com.premiumminds.wicket.crudifier.form.EntityProvider;
 import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings.GridSize;
+import com.premiumminds.wicket.crudifier.form.EntityProvider;
+import org.apache.wicket.markup.html.WebMarkupContainer;
+import org.apache.wicket.markup.html.form.ListMultipleChoice;
+import org.apache.wicket.validation.IErrorMessageSource;
+import org.apache.wicket.validation.IValidationError;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CollectionControlGroupTest extends AbstractComponentTest {
 	private class TestProvider extends EntityProvider<String> {

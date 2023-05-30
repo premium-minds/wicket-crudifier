@@ -24,6 +24,9 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 
+import com.premiumminds.wicket.crudifier.IObjectRenderer;
+import com.premiumminds.wicket.crudifier.LabelProperty;
+import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings;
 import org.apache.commons.beanutils.PropertyUtils;
 import org.apache.wicket.IGenericComponent;
 import org.apache.wicket.markup.html.WebMarkupContainer;
@@ -33,10 +36,6 @@ import org.apache.wicket.markup.repeater.RepeatingView;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.PropertyModel;
 import org.apache.wicket.model.StringResourceModel;
-
-import com.premiumminds.wicket.crudifier.IObjectRenderer;
-import com.premiumminds.wicket.crudifier.LabelProperty;
-import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings;
 
 public class CrudifierView<T> extends Panel implements IGenericComponent<T, CrudifierView<T>> {
 	private static final long serialVersionUID = -151637566983702881L;
