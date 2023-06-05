@@ -3,6 +3,10 @@
 
 ## [Unreleased]
 
+### Added
+
+ - [Adds Automatic-Module-Name](https://github.com/premium-minds/wicket-crudifier/pull/85)
+
 ### Changed
 
  - [Bump wicket.version from 8.13.0 to 8.14.0](https://github.com/premium-minds/wicket-crudifier/pull/53)
