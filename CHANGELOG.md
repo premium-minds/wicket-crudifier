@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+## [5.0] - 2023-06-07
+
 ### Added
 
  - [Adds Automatic-Module-Name](https://github.com/premium-minds/wicket-crudifier/pull/85)
@@ -103,4 +105,5 @@
 [4.0]: https://github.com/premium-minds/wicket-crudifier/compare/v3.0...v4.0
 [4.1]: https://github.com/premium-minds/wicket-crudifier/compare/v4.0...v4.1
 [4.2]: https://github.com/premium-minds/wicket-crudifier/compare/v4.1...v4.2
-[unreleased]: https://github.com/premium-minds/wicket-crudifier/compare/v4.2...HEAD
+[5.0]: https://github.com/premium-minds/wicket-crudifier/compare/v4.2...v5.0
+[unreleased]: https://github.com/premium-minds/wicket-crudifier/compare/v5.0...HEAD

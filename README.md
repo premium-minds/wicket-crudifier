@@ -12,7 +12,7 @@ Add the following maven dependency to your project `pom.xml`:
 <dependency>
    <groupId>com.premiumminds</groupId>
    <artifactId>wicket-crudifier</artifactId>
-   <version>4.1</version>
+   <version>5.0</version>
 </dependency>
 ```
 Check out [sonatype repository](https://oss.sonatype.org/index.html#nexus-search;quick~wicket-crudifier) for latest snapshots and releases.
@@ -23,6 +23,7 @@ Wicket | wicket-crudifier | Maven Central |
 | ------------- | ------------- | ------------- | 
 7.x | 3.x | ![Maven Central with version prefix filter](https://img.shields.io/maven-central/v/com.premiumminds/wicket-crudifier/3)|
 8.x | 4.x | ![Maven Central with version prefix filter](https://img.shields.io/maven-central/v/com.premiumminds/wicket-crudifier/4)|
+9.x | 5.x | ![Maven Central with version prefix filter](https://img.shields.io/maven-central/v/com.premiumminds/wicket-crudifier/5)|
 
 ## Documentation
 
