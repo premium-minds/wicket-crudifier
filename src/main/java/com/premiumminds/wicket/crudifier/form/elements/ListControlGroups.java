@@ -34,7 +34,6 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
 import javax.validation.Validator;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
@@ -43,17 +42,16 @@ import javax.validation.metadata.BeanDescriptor;
 import javax.validation.metadata.ConstraintDescriptor;
 import javax.validation.metadata.ElementDescriptor;
 
+import com.premiumminds.webapp.wicket.validators.HibernateValidatorProperty;
+import com.premiumminds.wicket.crudifier.IObjectRenderer;
+import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings;
+import com.premiumminds.wicket.crudifier.form.EntityProvider;
 import org.apache.commons.beanutils.PropertyUtils;
 import org.apache.wicket.Component;
 import org.apache.wicket.markup.html.panel.Panel;
 import org.apache.wicket.markup.repeater.RepeatingView;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.PropertyModel;
-
-import com.premiumminds.webapp.wicket.validators.HibernateValidatorProperty;
-import com.premiumminds.wicket.crudifier.IObjectRenderer;
-import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings;
-import com.premiumminds.wicket.crudifier.form.EntityProvider;
 
 public abstract class ListControlGroups<T> extends Panel {
 	private static final long serialVersionUID = 7205285700113097720L;

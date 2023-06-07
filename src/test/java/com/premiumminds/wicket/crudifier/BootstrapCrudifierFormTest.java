@@ -24,9 +24,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
-
 import javax.validation.constraints.NotNull;
 
+import com.premiumminds.wicket.crudifier.form.CrudifierForm;
+import com.premiumminds.wicket.crudifier.form.EntityProvider;
 import org.apache.wicket.Page;
 import org.apache.wicket.Session;
 import org.apache.wicket.model.Model;
@@ -34,10 +35,7 @@ import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.request.Request;
 import org.apache.wicket.request.Response;
 import org.apache.wicket.util.tester.WicketTester;
-import org.junit.Test;
-
-import com.premiumminds.wicket.crudifier.form.CrudifierForm;
-import com.premiumminds.wicket.crudifier.form.EntityProvider;
+import org.junit.jupiter.api.Test;
 
 public class BootstrapCrudifierFormTest {
 

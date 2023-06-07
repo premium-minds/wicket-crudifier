@@ -20,9 +20,8 @@ package com.premiumminds.wicket.crudifier.table;
 
 import java.util.Map;
 
-import org.apache.wicket.Component;
-
 import com.premiumminds.wicket.crudifier.IObjectRenderer;
+import org.apache.wicket.Component;
 
 public interface IColumn<T> {
 	public String getPropertyName();

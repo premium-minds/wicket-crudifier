@@ -18,10 +18,13 @@
  */
 package com.premiumminds.wicket.crudifier.form.elements;
 
-import static org.junit.Assert.*;
 
 import java.util.List;
 
+import com.premiumminds.webapp.wicket.testing.AbstractComponentTest;
+import com.premiumminds.webapp.wicket.validators.HibernateValidatorProperty;
+import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings;
+import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings.GridSize;
 import org.apache.wicket.behavior.Behavior;
 import org.apache.wicket.markup.html.WebMarkupContainer;
 import org.apache.wicket.markup.html.form.FormComponent;
@@ -29,12 +32,10 @@ import org.apache.wicket.markup.html.form.TextField;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.Model;
 import org.apache.wicket.validation.ValidatorAdapter;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import com.premiumminds.webapp.wicket.testing.AbstractComponentTest;
-import com.premiumminds.webapp.wicket.validators.HibernateValidatorProperty;
-import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings;
-import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings.GridSize;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AbstractControlGroupTest extends AbstractComponentTest {
 	private class TestGroup extends AbstractControlGroup<String> {

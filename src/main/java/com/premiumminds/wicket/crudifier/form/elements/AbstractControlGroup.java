@@ -23,6 +23,8 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 
+import com.premiumminds.webapp.wicket.validators.HibernateValidatorProperty;
+import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings;
 import org.apache.wicket.Application;
 import org.apache.wicket.AttributeModifier;
 import org.apache.wicket.Component;
@@ -36,9 +38,6 @@ import org.apache.wicket.util.convert.IConverter;
 import org.apache.wicket.util.string.Strings;
 import org.apache.wicket.util.string.interpolator.VariableInterpolator;
 import org.apache.wicket.validation.IErrorMessageSource;
-
-import com.premiumminds.webapp.wicket.validators.HibernateValidatorProperty;
-import com.premiumminds.wicket.crudifier.form.CrudifierEntitySettings;
 
 public abstract class AbstractControlGroup<T> extends Panel {
 	private static final long serialVersionUID = 6551088390404506493L;

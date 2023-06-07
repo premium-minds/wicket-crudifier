@@ -18,13 +18,13 @@
  */
 package com.premiumminds.wicket.crudifier.form.elements;
 
-import static org.junit.Assert.*;
-
 import org.apache.wicket.markup.html.form.CheckBox;
-import org.junit.Test;
 
 import com.premiumminds.webapp.wicket.bootstrap.BootstrapControlGroupFeedback;
 import com.premiumminds.webapp.wicket.testing.AbstractComponentTest;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CheckboxControlGroupTest extends AbstractComponentTest {
 	@Test

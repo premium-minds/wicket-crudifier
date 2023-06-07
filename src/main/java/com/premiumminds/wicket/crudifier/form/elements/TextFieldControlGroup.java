@@ -20,6 +20,7 @@ package com.premiumminds.wicket.crudifier.form.elements;
 
 import java.io.Serializable;
 
+import com.premiumminds.webapp.wicket.bootstrap.BootstrapControlGroupFeedback;
 import org.apache.wicket.AttributeModifier;
 import org.apache.wicket.markup.html.WebMarkupContainer;
 import org.apache.wicket.markup.html.form.FormComponent;
@@ -27,8 +28,6 @@ import org.apache.wicket.markup.html.form.TextField;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.StringResourceModel;
 import org.apache.wicket.validation.IValidationError;
-
-import com.premiumminds.webapp.wicket.bootstrap.BootstrapControlGroupFeedback;
 
 public class TextFieldControlGroup<T> extends AbstractControlGroup<T> {
 	private static final long serialVersionUID = -944776898493154174L;

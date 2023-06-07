@@ -21,6 +21,7 @@ package com.premiumminds.wicket.crudifier.table;
 import java.io.Serializable;
 import java.util.Map;
 
+import com.premiumminds.wicket.crudifier.IObjectRenderer;
 import org.apache.wicket.AttributeModifier;
 import org.apache.wicket.Component;
 import org.apache.wicket.ajax.AjaxRequestTarget;
@@ -29,8 +30,6 @@ import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.panel.Panel;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.Model;
-
-import com.premiumminds.wicket.crudifier.IObjectRenderer;
 
 public abstract class ButtonColumn<T extends Serializable> implements
 		IColumn<T>, Serializable {
