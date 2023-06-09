@@ -3,6 +3,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+ - [Bump maven-surefire-plugin from 3.1.0 to 3.1.2](https://github.com/premium-minds/wicket-crudifier/pull/89)
+
 ## [5.0] - 2023-06-07
 
 ### Added
