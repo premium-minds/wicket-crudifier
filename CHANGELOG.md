@@ -5,8 +5,9 @@
 
 ### Changed
 
- - [Bump maven-surefire-plugin from 3.1.0 to 3.1.2](https://github.com/premium-minds/wicket-crudifier/pull/89)
  - [Bump org.junit.jupiter:junit-jupiter from 5.9.3 to 5.10.0 ](https://github.com/premium-minds/wicket-crudifier/pull/95)
+ - [Bump org.easymock:easymock from 5.1.0 to 5.2.0](https://github.com/premium-minds/wicket-crudifier/pull/96)
+ - [Bump maven-surefire-plugin from 3.1.0 to 3.1.2](https://github.com/premium-minds/wicket-crudifier/pull/89)
 
 ## [5.0] - 2023-06-07
 
