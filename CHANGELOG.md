@@ -11,6 +11,7 @@
  - [Bump maven-surefire-plugin from 3.1.0 to 3.1.2](https://github.com/premium-minds/wicket-crudifier/pull/89)
  - [Bump org.apache.maven.plugins:maven-surefire-plugin from 3.1.2 to 3.2.1](https://github.com/premium-minds/wicket-crudifier/pull/98)
  - [Bump org.apache.maven.plugins:maven-surefire-plugin from 3.2.1 to 3.2.2](https://github.com/premium-minds/wicket-crudifier/pull/100)
+ - [Bump org.apache.maven.plugins:maven-surefire-plugin from 3.2.2 to 3.2.3](https://github.com/premium-minds/wicket-crudifier/pull/103)
  - [Bump org.apache.maven.plugins:maven-javadoc-plugin from 3.5.0 to 3.6.0](https://github.com/premium-minds/wicket-crudifier/pull/97)
  - [Bump org.apache.maven.plugins:maven-javadoc-plugin from 3.6.0 to 3.6.2](https://github.com/premium-minds/wicket-crudifier/pull/99)
  - [Bump org.apache.maven.plugins:maven-javadoc-plugin from 3.6.2 to 3.6.3](https://github.com/premium-minds/wicket-crudifier/pull/102)
