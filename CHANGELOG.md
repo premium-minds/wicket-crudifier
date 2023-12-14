@@ -23,6 +23,7 @@
 
 ### Changed
 
+ - [Upgrade to Wicket 9, Java 11 and Junit 5](https://github.com/premium-minds/wicket-crudifier/pull/83)
  - [Bump wicket.version from 8.13.0 to 8.14.0](https://github.com/premium-minds/wicket-crudifier/pull/53)
  - [Bump wicket.version from 8.14.0 to 8.15.0](https://github.com/premium-minds/wicket-crudifier/pull/76)
  - [Bump easymock from 4.3 to 5.0.1](https://github.com/premium-minds/wicket-crudifier/pull/68)
