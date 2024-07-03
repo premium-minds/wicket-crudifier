@@ -8,6 +8,7 @@
  - [Bump org.junit.jupiter:junit-jupiter from 5.9.3 to 5.10.0](https://github.com/premium-minds/wicket-crudifier/pull/95)
  - [Bump org.junit.jupiter:junit-jupiter from 5.10.0 to 5.10.1](https://github.com/premium-minds/wicket-crudifier/pull/101)
  - [Bump org.junit.jupiter:junit-jupiter from 5.10.1 to 5.10.2](https://github.com/premium-minds/wicket-crudifier/pull/108)
+ - [Bump org.junit.jupiter:junit-jupiter from 5.10.2 to 5.10.3](https://github.com/premium-minds/wicket-crudifier/pull/131)
  - [Bump org.easymock:easymock from 5.1.0 to 5.2.0](https://github.com/premium-minds/wicket-crudifier/pull/96)
  - [Bump org.easymock:easymock from 5.2.0 to 5.3.0](https://github.com/premium-minds/wicket-crudifier/pull/125)
  - [Bump org.apache.maven.plugins:maven-compiler-plugin from 3.11.0 to 3.12.0](https://github.com/premium-minds/wicket-crudifier/pull/105)
