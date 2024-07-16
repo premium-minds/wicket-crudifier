@@ -27,6 +27,7 @@
  - [Bump org.apache.maven.plugins:maven-source-plugin from 3.3.0 to 3.3.1](https://github.com/premium-minds/wicket-crudifier/pull/114)
  - [Bump org.apache.maven.plugins:maven-jar-plugin from 3.3.0 to 3.4.0](https://github.com/premium-minds/wicket-crudifier/pull/118)
  - [Bump org.apache.maven.plugins:maven-jar-plugin from 3.4.0 to 3.4.1](https://github.com/premium-minds/wicket-crudifier/pull/120)
+ - [Bump org.apache.maven.plugins:maven-release-plugin from 3.0.1 to 3.1.1](https://github.com/premium-minds/wicket-crudifier/pull/133)
  - [Bump org.sonatype.plugins:nexus-staging-maven-plugin from 1.6.13 to 1.7.0](https://github.com/premium-minds/wicket-crudifier/pull/121)
 
 ## [5.0] - 2023-06-07
