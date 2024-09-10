@@ -29,6 +29,7 @@
  - [Bump org.apache.maven.plugins:maven-javadoc-plugin from 3.6.2 to 3.6.3](https://github.com/premium-minds/wicket-crudifier/pull/102)
  - [Bump org.apache.maven.plugins:maven-javadoc-plugin from 3.6.3 to 3.7.0](https://github.com/premium-minds/wicket-crudifier/pull/123)
  - [Bump org.apache.maven.plugins:maven-javadoc-plugin from 3.7.0 to 3.8.0](https://github.com/premium-minds/wicket-crudifier/pull/135)
+ - [Bump org.apache.maven.plugins:maven-javadoc-plugin from 3.8.0 to 3.10.0](https://github.com/premium-minds/wicket-crudifier/pull/141)
  - [Bump org.apache.maven.plugins:maven-source-plugin from 3.3.0 to 3.3.1](https://github.com/premium-minds/wicket-crudifier/pull/114)
  - [Bump org.apache.maven.plugins:maven-jar-plugin from 3.3.0 to 3.4.0](https://github.com/premium-minds/wicket-crudifier/pull/118)
  - [Bump org.apache.maven.plugins:maven-jar-plugin from 3.4.0 to 3.4.1](https://github.com/premium-minds/wicket-crudifier/pull/120)
