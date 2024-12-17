@@ -13,6 +13,7 @@
  - [Bump org.junit.jupiter:junit-jupiter from 5.11.0 to 5.11.1](https://github.com/premium-minds/wicket-crudifier/pull/145)
  - [Bump org.junit.jupiter:junit-jupiter from 5.11.1 to 5.11.2](https://github.com/premium-minds/wicket-crudifier/pull/148)
  - [Bump org.junit.jupiter:junit-jupiter from 5.11.2 to 5.11.3](https://github.com/premium-minds/wicket-crudifier/pull/149)
+ - [Bump org.junit.jupiter:junit-jupiter from 5.11.3 to 5.11.4](https://github.com/premium-minds/wicket-crudifier/pull/155)
  - [Bump org.easymock:easymock from 5.1.0 to 5.2.0](https://github.com/premium-minds/wicket-crudifier/pull/96)
  - [Bump org.easymock:easymock from 5.2.0 to 5.3.0](https://github.com/premium-minds/wicket-crudifier/pull/125)
  - [Bump org.easymock:easymock from 5.3.0 to 5.4.0](https://github.com/premium-minds/wicket-crudifier/pull/136)
