@@ -5,6 +5,7 @@
 
 ### Changed
 
+ - [Bump org.hibernate.validator:hibernate-validator from 6.2.0.Final to 6.2.5.Final](https://github.com/premium-minds/wicket-crudifier/pull/158)
  - [Bump org.junit.jupiter:junit-jupiter from 5.9.3 to 5.10.0](https://github.com/premium-minds/wicket-crudifier/pull/95)
  - [Bump org.junit.jupiter:junit-jupiter from 5.10.0 to 5.10.1](https://github.com/premium-minds/wicket-crudifier/pull/101)
  - [Bump org.junit.jupiter:junit-jupiter from 5.10.1 to 5.10.2](https://github.com/premium-minds/wicket-crudifier/pull/108)
